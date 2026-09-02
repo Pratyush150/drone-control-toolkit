@@ -1,0 +1,9 @@
+# Runtime: numpy only. Everything in src/dctk imports and runs with just this.
+numpy>=1.22
+
+# Plotting for examples/. Imported lazily inside the example scripts, so tests
+# and library use never need a display or a matplotlib install.
+matplotlib>=3.5
+
+# Test runner.
+pytest>=7.0
